@@ -136,4 +136,8 @@ app.get('/projects', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}...`);
+
+app.get('/', (req, res) => {
+    res.send('App is running.');
+})
 });
