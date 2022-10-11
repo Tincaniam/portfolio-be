@@ -31,6 +31,7 @@ app.post('/projects', (req, res) => {
         projects.createProject(req.body.name, req.body.status, req.body.description, req.body.link, req.body.date)
             .then(project => {
                 res.status(201).json(project);
+                console.log(res.req.body);
             })
             .catch(error => {
                 console.error(error);
