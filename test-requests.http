@@ -83,6 +83,8 @@ content-type: application/json
 ### Request 10: Retrieve should return the 6 projects we have created
 GET http://localhost:3000/projects HTTP/1.1
 
+GET https://tincaniam-portfolio-be.herokuapp.com HTTP/1.1
+
 
 ### Request 11: Update the Deadlift with date 01-25-22. Set reps to 12 and 
 ###     unit to lbs (weight remains 30 and date remains 01-25-22)
