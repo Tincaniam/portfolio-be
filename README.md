@@ -10,7 +10,7 @@ It communicates with the following HTTP methods:
 
 # GET
 Get all projects
-GET https://portfolio.tincaniam.com/projcts
+GET https://portfolio.tincaniam.com/projects
 Will return all projects currently stored in the database.
 Responds with all projects and the status code 200 if successful, or 400 if the request is invalid.
 
