@@ -114,12 +114,13 @@ GET http://localhost:3000/projects/63374512caf3dc98bef316fb HTTP/1.1
 ### Request 13: Update with missing property. 400 status code
 ### NOTE: Change the value of ID in the following URL to the ID assigned
 ###     to Deadlift with date 01-25-22.
-PUT http://localhost:3000/projects/63374512caf3dc98bef316fb HTTP/1.1
+PUT http://localhost:3000/projects/633f6dfcf86f764d830ebd76 HTTP/1.1
 content-type: application/json
 
 {
-    "name": "Hash Map",
+    "name": "Test Project",
     "status": "Completed",
+    "description": "A test description of a test project",
     "link": "www.link.com",
     "date": "01-25-22"
 }
@@ -133,8 +134,8 @@ content-type: application/json
 
 {
     "name": "Hash Map",
-    "status": "Not valid",
-    "description": "An awesome hash map!",
+    "status": "In Progress",
+    "description": "A test awesome hash map!",
     "link": "www.link.com",
     "date": "01-25-22"
 }
@@ -163,7 +164,7 @@ DELETE http://localhost:3000/projects/63374512caf3dc98bef316fb HTTP/1.1
 
 
 ### Request 18: Verify that the Deadlift on 01-25-22 has been deleted. 404 status code
-GET http://localhost:3000/projects/63374512caf3dc98bef316fb HTTP/1.1
+GET http://localhost:3000/projects/633f6dfcf86f764d830ebd76 HTTP/1.1
 
 
 ### Request 19: Verify that the Deadlift on 01-25-22 has been deleted

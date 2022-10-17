@@ -50,7 +50,7 @@ app.get('/projects/:_id', (req, res) => {
     projects.findProjectById(projectId)
         .then(project => {
             if (project !== null) {
-                res.json(project)
+                res.status(200).json(project)
             } else {
                 res.status(404).json({ Error: 'Not found' });
             }
