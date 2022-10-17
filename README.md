@@ -43,5 +43,9 @@ Must contain the JSON data you wish to use to update the project. This requries 
 Responds with status code 200 if succesful, 404 if the requested project is not found, or 400 if the request is invalid.
 # DELETE
 Delete a project
-DELETE https://portfolio.tincaniam.com/projects/'project_id'
+DELETE https://portfolio.tincaniam.com/projects/'project_id'![UML class]
 Responds with 204 if the project is deleted, or 404 if it is not found.
+
+(https://user-images.githubusercontent.com/29785902/196291822-44257d29-5dad-451f-84c2-f63bf3e771fd.png)
+
+![Uploading UML class.png…]()
