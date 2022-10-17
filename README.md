@@ -5,8 +5,7 @@ This is an Express/NodeJS app that communicates over a REST API and stores data 
 
 It is hosted at https://portfolio.tincaniam.com/projects.
 
-It communicates with the following HTTP methods:
-# GET, POST, PUT, DELETE
+It communicates with the following HTTP methods: GET, POST, PUT, DELETE
 
 # GET
 Get all projects
